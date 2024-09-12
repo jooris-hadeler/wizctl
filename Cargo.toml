@@ -1,7 +1,11 @@
 [package]
 name = "wizctl"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
+description = "A simple command line utility for controlling Wiz Connected LED light strips."
+homepage = "https://github.com/jooris-hadeler/wizctl"
+license = "MIT OR Apache-2.0"
+keywords = ["cli", "terminal", "utility"]
 
 [dependencies]
 clap = { version = "4.5.17", features = ["derive"] }
